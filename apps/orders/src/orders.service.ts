@@ -11,6 +11,6 @@ export class OrdersService {
   }
 
   getOrders() {
-    return 'orders...';
+    return this.ordersRepository.find({});
   }
 }

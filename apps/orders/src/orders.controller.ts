@@ -12,7 +12,7 @@ export class OrdersController {
   }
 
   @Get()
-  getOrders(): string {
+  async getOrders() {
     return this.ordersService.getOrders();
   }
 }
